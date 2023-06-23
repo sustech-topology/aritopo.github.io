@@ -1,0 +1,310 @@
+<!doctype html>
+<html>
+  
+  <script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+    });
+</script>
+
+<head>
+  <title>Arithmetic &amp; Topology, SUSTech</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+  <style>
+    .menu-index {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="menu-container"></div>
+  <div class="content-container">
+    <div class="banner" style="background: url('img/3.jpeg') no-repeat center; background-size: cover; height: 200px;"></div>
+    <div class="banner">
+      <div class="banner-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin-small">Arithmetic and Topology</h2>
+            <p class="text">
+              December 16–17, 2022<br>
+              Southern University of Science and Technology
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content-table flex-column">
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Intro
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <img class="image" src="img/dummay-img.png">
+          </div>
+          <div class="flex-item flex-column">
+            <p class="text text-large">
+              <a target="_blank" href="javascript:void(0)">Author 1</a>, author1 (at) cs.cmu.edu<br>
+              <a target="_blank" href="javascript:void(0)">Author 2</a>, author2 (at) cs.cmu.edu<br>
+              <a target="_blank" href="javascript:void(0)">Author 3</a>, author3 (at) cs.cmu.edu<br>
+              <a target="_blank" href="javascript:void(0)">Laboratory</a><br>
+              <a target="_blank" href="javascript:void(0)">Institute</a><br>
+              <a target="_blank" href="javascript:void(0)">Organization</a><br>
+              <a target="_blank" href="javascript:void(0)">Street Address</a><br>
+              <a target="_blank" href="javascript:void(0)">City, State, Country</a>
+            </p>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p class="text add-top-margin">
+              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
+              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
+              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
+              vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae
+              sapien ut libero venenatis faucibus. Nullam quis ante.
+            </p>
+          </div>
+        </div>
+        End Intro-->
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Text Only-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2>About</h2>
+            <p>
+            This online conference is hosted by the <a href="https://math.sustech.edu.cn/?lang=en" target="_blank">Department of Mathematics</a> 
+              and the <a href="https://icm.sustech.edu.cn/" target="_blank">Shenzhen International Center for Mathematics</a> at 
+              <a href="https://www.sustech.edu.cn/en/" target="_blank">SUSTech</a>.  
+              We intend to bring experts in both Number Theory and Topology to share recent advances in these related fields, and to foster 
+              interdisciplinary communication and collaboration.  
+            
+           </p>
+            <h2><a id="P"></a>Speakers</h2>
+            
+            <p>
+              <li>Weiyan Chen, Tsinghua University</li>
+              <li>Xing Gu, Westlake University</li>
+              <li>Yiqin He, Peking University</li>
+              <li>Yongquan Hu, Chinese Academy of Sciences</li>
+              <li>Zhen Huan, Huazhong University of Science and Technology</li>
+              <li>Zicheng Qian, Chinese Academy of Sciences</li>
+              <li>Guozhen Wang, Fudan University</li>
+              <li>Haoran Wang, Tsinghua University</li>
+              <li>Seokbeom Yoon, Southern University of Science and Technology</li>
+              <li>Ningchuan Zhang, University of Pennsylvania</li>
+              <li>Bin Zhao, Capital Normal University</li>
+            </p>
+            
+            <h2><a id="S"></a><a style="color: #005CBF" href="schedule.pdf" target="_blank">Schedule</a> (zoom: 863 4229 4780 / passcode: aritopo)</h2>
+            
+       
+           All talks will be China Standard Time (GMT+8)<br />
+           
+            <h3>Friday, December 16</h3>
+            8:50–9:00 am
+            <br />Opening remarks<br />
+            
+            <br />9:00–9:50 am <b>Guozhen Wang</b> <a style="color: #005CBF" onclick="toggle_visibility('1');">Computations of topological cyclic homology</a>
+            <div id="1" class="toshow" style="display:none">
+              Algebraic $K$-theory for a field is the classification of vector spaces including higher homotopical information. 
+              The cyclotomic trace map from algebraic $K$-theory to topological cyclic homology is a generalization of the Chern 
+              character which approximates $K$-theory by ordinary homology. We will give an introduction to some new developments 
+              in the methods for computing topological cyclic homology and its applications.
+
+
+            </div>
+            <a style="color: #005CBF" href="G. Wang.pdf" target="_blank">Slides</a>
+            
+            
+            <br />10:00–10:50 am <b>Weiyan Chen</b> <a style="color: #005CBF" onclick="toggle_visibility('2');">Choosing points on cubic plane curves</a>
+            <div id="2" class="toshow" style="display:none">
+                It is a classical topic to study structures of certain special points on smooth complex cubic plane curves, 
+              for example, the 9 flex points and the 27 sextactic points. We study the following topological question asked by Farb: 
+              Is it true that the known algebraic structures give all the possible ways to continuously choose $n$ distinct points on every smooth 
+              cubic plane curve, for each given integer $n$? This work is joint with Ishan Banerjee.
+
+            </div>
+            <a style="color: #005CBF" href="Chen.pdf" target="_blank">Notes</a>
+            
+            <br />11:00–11:50 am <b>Zhen Huan</b> <a style="color: #005CBF" onclick="toggle_visibility('3');">Twisted Real quasi-elliptic cohomology</a>
+            <div id="3" class="toshow" style="display:none">
+                Quasi-elliptic cohomology is closely related to Tate $K$-theory. It is constructed as an object both 
+              reflecting the geometric nature of elliptic curves and more practicable to study than most elliptic cohomology theories.  
+              It can be interpreted by orbifold loop spaces and expressed in terms of equivariant $K$-theories. 
+              We formulate the complete power operation of this theory. Applying that we prove the finite subgroups of Tate curve 
+              can be classified by the Tate $K$-theory of symmetric groups modulo a certain transfer ideal.  <br />
+
+              In this talk we construct twisted Real quasi-elliptic cohomology as the twisted $KR$-theory of loop groupoids. 
+              The theory systematically incorporates loop rotation and reflection. After establishing basic properties of the theory, 
+              we construct  Real analogues of the string power operation of quasi-elliptic cohomology. We also explore the relation of 
+              the theory to the Tate curve. This is joint work with Matthew Young.
+            </div>
+             <a style="color: #005CBF" href="Huan.pdf" target="_blank">Slides</a>
+                       
+            <br />2:00–2:50 pm <b>Yongquan Hu</b> <a style="color: #005CBF" onclick="toggle_visibility('4');">Multivariable ($\varphi$, 
+            ${\mathcal O}_K^\times$)-modules and mod $p$ 
+              representations of ${\rm GL}_2$</a>
+            <div id="4" class="toshow" style="display:none">
+              Let $p$ be a prime number, $K$ a finite unramified extension of ${\mathbb Q}_p$, and $\pi$ a smooth representation of 
+              ${\rm GL}_2(K)$ on some Hecke eigenspace in mod $p$ cohomology of Shimura curves. One can
+associate to $\pi$ a multivariable $(\varphi, {\mathcal O}_K^\times)$-module. The aim of this talk is to explain the construction
+and some recent results around it. This is joint work with C. Breuil, F. Herzig, S. Morra and B.
+Schraen.
+            </div>
+<a style="color: #005CBF" href="Hu.pdf" target="_blank">Notes</a>
+            
+            <br />3:00–3:50 pm <b>Haoran Wang</b> <a style="color: #005CBF" onclick="toggle_visibility('5');">On some mod $p$ representations of quaternion algebra over ${\mathbb Q}_p$</a>
+            <div id="5" class="toshow" style="display:none">
+              Scholze proposed a mod $p$ Jacquet–Langlands correspondence for ${\rm GL}(n, K)$, where $K$ is a
+finite extension of ${\mathbb Q}_p$. I will discuss some results about Scholze's functors in the case of ${\rm GL}(2, {\mathbb Q}_p)$.
+This is a joint work with Yongquan Hu.
+            </div>
+<a style="color: #005CBF" href="H. Wang.pdf" target="_blank">Notes</a>
+            
+            <br />4:00–4:50 pm <b>Bin Zhao</b> <a style="color: #005CBF" onclick="toggle_visibility('6');">Slopes of modular form and ghost conjecture</a>
+            <div id="6" class="toshow" style="display:none">
+              In 2016, Bergdall and Pollack raised a conjecture towards the computation of the $p$-adic slopes of Hecke cuspidal eigenforms whose associated $p$-adic Galois representations satisfy the
+assumption that their mod $p$ reductions become reducible when restricted to the $p$-decomposition
+group. In this talk, I will report a joint work with Ruochuan Liu, Nha Truong and Liang Xiao to
+prove this conjecture under mild assumptions. I will first give the statement of this conjecture and
+explain the intuition behind its formulation. I will then explain some key strategies in our proof. If
+time permits, I will mention some arithmetic consequences of this conjecture.
+            </div>
+<a style="color: #005CBF" href="Zhao.pdf" target="_blank">Slides</a>
+            
+            
+            
+        <br /><h3>Saturday, December 17</h3>
+            
+            10:00–10:50 am <b>Ningchuan Zhang</b> <a style="color: #005CBF" onclick="toggle_visibility('7');">A Quillen–Lichtenbaum Conjecture for Dirichlet $L$-functions</a>
+            
+            <div id="7" class="toshow" style="display:none">
+                The original version of the Quillen–Lichtenbaum Conjecture, proved by Voevodsky and Rost, 
+              connects special values of the Dedekind zeta function of a number field with its algebraic $K$-groups. 
+              In this talk, I will discuss a generalization of this conjecture to Dirichlet $L$-functions. 
+              The key idea is to twist algebraic $K$-theory spectra of number fields with equivariant Moore spectra 
+              associated to Dirichlet characters. Rationally, we obtain a Quillen–Borel type theorem for Artin $L$-functions. 
+              This is joint work in progress with Elden Elmanto.
+            </div>
+            <a style="color: #005CBF" href="Zhang.pdf" target="_blank">Slides</a>
+            
+            <br />11:00–11:50 am <b>Xing Gu</b> <a style="color: #005CBF" onclick="toggle_visibility('8');">The ordinary and motivic cohomology of $B{\rm PGL}_n({\mathbb C})$</a>
+            
+            <div id="8" class="toshow" style="display:none">
+              For an algebraic group $G$ over $\mathbb C$, we have the classifying space
+$BG$ in the sense of Totaro and Voevodsky, which is an object in the unstable
+motivic homotopy category that plays a similar role in algebraic geometry as
+the classifying space of a Lie group in topology.<br />
+The motivic cohomology (in particular, the Chow ring) of $BG$ is closely
+related, via the cycle map, to the singular cohomology of the topological realization of $BG$, 
+              which is the classifying space of $G({\mathbb C})$, the underlying Lie group
+of the complex algebraic group $G$.<br />
+In this talk we present a work which exploits the above connection between
+topological and motivic theory and yields new results on both the ordinary and
+the motivic cohomology of $B{\rm PGL}_n({\mathbb C})$, the complex projective linear group.<br />
+            </div>
+            <a style="color: #005CBF" href="Gu.pdf" target="_blank">Slides</a>
+            
+            <br />2:00–2:50 pm <b>Seokbeom Yoon</b> <a style="color: #005CBF" onclick="toggle_visibility('9');">Twisted Neumann–Zagier matrices and loop invariants</a>
+            
+            <div id="9" class="toshow" style="display:none">
+              Let $M$ be a hyperbolic 3-manifold with cusps and $F$ be its trace field. 
+              For a geometric or topological invariant of $M$ that lies in $F$, 
+              it is natural to study its behavior under finite cyclic covers of $M$. 
+              In this talk, we focus on loop invariants, derived from perturbative Chern–Simons theory, and 
+              describe their behaviors under cyclic covers in terms of twisted Neumann–Zagier matrices. 
+              This is joint work with Stavros Garoufalidis.
+            </div>
+            <a style="color: #005CBF" href="Yoon.pdf" target="_blank">Notes</a>
+            
+             <br /> 3:00–3:50 pm <b>Zicheng Qian</b> <a style="color: #005CBF" onclick="toggle_visibility('10');">On Breuil–Schraen $\mathscr L$-invariants for ${\rm GL}_n$</a>
+            
+            <div id="10" class="toshow" style="display:none">
+                The study of Breuil–Schraen $\mathscr L$-invariants is motivated by that of Steinberg case of $p$-adic Langlands correspondence. 
+              Many results are known for ${\rm GL}(2, {\mathbb Q}_p)$ and ${\rm GL}(3, {\mathbb Q}_p)$ due to work of
+Breuil, Ding and Schraen. In this talk, we sketch a few recent progress towards general ${\rm GL}_n$.
+            </div>
+            <a style="color: #005CBF" href="Qian.pdf" target="_blank">Notes</a>
+            
+            <br />4:00–4:50 pm <b>Yiqin He</b> <a style="color: #005CBF" onclick="toggle_visibility('12');">Parabolic simple $\mathscr L$-invariants and local–global compatibility</a>
+           
+            <div id="12" class="toshow" style="display:none">
+              Let $L$ be a finite extension of ${\mathbb Q}_p$ and $\rho_L$ be a potentially semistable noncrystalline 
+              $p$-adic representation of ${\rm Gal}_L$ such that the associated $F$-semisimple Weil–Deligne representation is
+absolutely indecomposable. Via a study of Breuil's parabolic simple $\mathscr L$-invariants, we attach to $\rho_L$
+a locally ${\mathbb Q}_p$-analytic representation $\Pi(\rho_L)$ of ${\rm GL}_n(L)$, which carries the exact 
+              information of the
+Fontaine–Mazur parabolic simple $\mathscr L$-invariants of $\rho_L$. When $\rho_L$ comes from a patched automorphic
+              representation of $G({\mathbb A}_{F^+})$ (for a unitary group $G$ over a totally real field $F^+$ 
+              which is compact at
+infinite places and ${\rm GL}_n$ at $p$-adic places), we prove under mild hypothesis that $\Pi(\rho_L)$ is a 
+              subrepresentation of the associated Hecke-isotypic subspace of the Banach spaces of (patched) $p$-adic
+automophic forms on $G({\mathbb A}_{F^+})$.
+            </div>
+            
+
+            <h2><a id="C"></a>Scientific Committee</h2>
+            
+            <p>
+              <li>Stavros Garoufalidis, Southern University of Science and Technology</li>  
+            </p>
+            
+            <h2><a id="O"></a>Organizers</h2>
+            
+            <p>
+              <li>Hui Gao, Southern University of Science and Technology</li>  
+              <li>Yifei Zhu, Southern University of Science and Technology</li>  
+            </p>
+            
+            <hr>
+            
+            
+                        <p>Site template by <a href="https://github.com/yenchiah/project-website-template" target="_blank">yenchiah</a><br />
+                        Photo of pink trumpet trees by 刘雪莹 adapted from <a href="https://mp.weixin.qq.com/s/FMzQdLVM6uQwHgv-pdni3Q" target="_blank">南科大总务君</a></p>
+                                            
+
+                    
+        </div>
+  
+  </div>
+      
+</body>
+
+</html>
